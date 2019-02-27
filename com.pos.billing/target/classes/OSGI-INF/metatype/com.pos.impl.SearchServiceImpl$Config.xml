@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metatype:MetaData xmlns:metatype="http://www.osgi.org/xmlns/metatype/v1.2.0" localization="OSGI-INF/l10n/bundle">
+  <OCD id="com.pos.impl.SearchServiceImpl$Config" name="%cms.reference.search.name" description="%cms.reference.search.description">
+    <AD id="searchServiceUsername" type="String" name="%searchServiceUsername.name" description="%searchServiceUsername.description"/>
+  </OCD>
+  <Designate pid="com.pos.impl.SearchServiceImpl">
+    <Object ocdref="com.pos.impl.SearchServiceImpl$Config"/>
+  </Designate>
+</metatype:MetaData>
